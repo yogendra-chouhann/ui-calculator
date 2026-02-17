@@ -105,3 +105,18 @@ button:hover{
 .outer-box{
    transition: transform 0.1s ease-in;
 }
+button{
+    transition: all 0.15s ease;
+}
+
+button:active{
+    transform: scale(0.80);
+}
+button:hover{
+    filter: brightness(1.1);
+    cursor: pointer;
+    scale: 0.93;
+}
+#result{
+    transition: opacity 0.25s ease;
+}
